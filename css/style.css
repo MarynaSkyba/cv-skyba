@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar {
-    background:#1e2939;
+    background: rgb(192, 189, 189);
     width: 370px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -55,6 +55,7 @@ margin-bottom: 20px;
 }
 
 .mobil {
+display: flex;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -62,6 +63,7 @@ color: #727881;
 }
 
 .mail {
+display: flex;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -230,5 +232,16 @@ margin-right: 10px;
     margin-top: 12px;
     
     
+}
+
+.contacts__icon {
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+    fill: white;
+}
+
+.contacts-item {
+    margin-top: 10px;
 }
     
