@@ -13,6 +13,13 @@ body {
     font-family: Montserrat;
 }
 
+
+
+.list {
+    list-style: none;
+    
+}
+
 .wrapper {
     background: white;
     display: flex;
@@ -30,7 +37,12 @@ body {
 
 }
 .my-photo {
-    width: 370px;
+    display: flex;
+    border-radius: 50%;
+    width: 230px;
+    align-content: center;
+    margin-left: 40px;
+    box-shadow: rgb(192, 189, 189);
 }
 
 .about-me-container {
@@ -40,7 +52,7 @@ body {
     padding-left: 90px;
 }
 .contacts-container {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
 
@@ -97,10 +109,12 @@ margin-right: 10px;
     font-weight: 400;
     line-height: 24px;
     color: #ff6b08;
-    margin-left: 15px;
+    margin: 0;
 }
 
 .t-skills-tex {
+    display: flex;
+    justify-items: self-end;
     color: white;
 }
 
@@ -113,8 +127,8 @@ margin-right: 10px;
 }
 
 .soft-skills-container {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 55px;
 }
 
@@ -123,10 +137,12 @@ margin-right: 10px;
     font-weight: 400;
     line-height: 24px;
     color: #ff6b08;
-    margin-left: 15px;
+    margin: 0;
+    
 }
 
 .s-skills-tex {
+    display: flex;
     color: white;
 }
 
@@ -142,7 +158,8 @@ margin-right: 10px;
     line-height: 89px;
     margin-bottom: 25px;
 }
-.descrition{
+
+.description{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -236,12 +253,41 @@ margin-right: 10px;
 
 .contacts__icon {
     display: flex;
-    align-self: center;
     margin-right: 10px;
     fill: white;
+   
 }
 
 .contacts-item {
     margin-top: 10px;
 }
     
+.contacts__icon-star {
+    display: inline;
+    
+    justify-content: center;
+    margin-right: 5px;
+    fill: white;
+
+}
+
+.skill-name {
+    display: inline-block;
+    justify-content: center;
+    font-weight: 900;
+    width: 100px;
+}
+
+.contacts__icon-check {
+    display: flex;
+    margin-right: 5px;
+    fill: white;
+
+}
+
+.text-skills {
+    display: inline;
+    align-content: center;
+    color: white;
+    
+}
